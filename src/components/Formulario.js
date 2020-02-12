@@ -34,9 +34,6 @@ const Formulario = (props) => {
   return ( 
     <Fragment>
       <form onSubmit={calcularPrestamo}>
-        <span>Valor de la cantidad {cantidad}</span> <br/>
-        <span>Valor del plazo Seleccionado {plazo}</span> 
-
           <div className="row">
               <div>
                   <label>Cantidad Prestamo</label>
